@@ -1,0 +1,156 @@
+/* *{
+    font-family:Arial, Helvetica, sans-serif Arial, sans-serif;
+    box-sizing: border-box;
+    
+   
+}
+
+div{
+    width:45vh;
+    height:50vh;
+    border: 1px solid black;
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    transform:translate(87%, 50%);
+}
+
+h1{
+    margin: 11px 109px;
+    
+}
+
+p{
+    margin: 3px 69px;
+}
+
+input{
+    margin: 3px 63px;
+    width: 285px;
+    height: 30px;
+    border-radius: 6px;
+    border: 1px solid black;
+    padding-left: 11px;
+    text-transform: uppercase;
+    
+}
+
+button{
+    margin: 11px 63px;
+    width: 299px;
+    height: 30px;
+    border-radius: 6px;
+    border: 1px solid black;
+    background-color: rgb(38, 201, 63);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    position: relative;
+    top: 23px;
+}
+
+button:hover{
+    background-color: rgb(0, 171, 3);
+}
+
+label[for="bill"]{
+    display: inline-block;
+    position: absolute;
+    top: 138px;
+    left:-13px
+}
+
+label[for="tip"]{
+    display: inline-block;
+    position: absolute;
+    top: 198px;
+    left:-13px
+}
+
+label{
+    margin: 3px 63px;
+    font-weight: bold;
+
+} */
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f2f2f2;
+  font-family: "Helvetica", sans-serif;
+}
+
+div{
+    width:48vh;
+    height:50vh;
+    border: 1px solid black;
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    transform:translate(148%, 50%);
+}
+
+
+h1 {
+  margin-top: 0;
+  text-align: center;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 10px 0;
+  width: 100%;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  margin: 10px 0;
+  width: 100%;
+  font-size: 18px;
+  text-transform: uppercase;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color:  rgb(0, 171, 3);
+}
+
+#total {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+
+@media (max-width: 600px) {
+  div {
+    width: 46vh;
+    transform: translate(-1%, 40%);
+
+  }
+
+  input{
+    margin: 1px 1px ;
+  }
+
+  button {
+    font-size: 16px;
+  }
+
+  #total {
+    font-size: 20px;
+  }
+}
